@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    margin: 2em 0 1em 1em;
+}
+
+.titulo-cabecalho{
+    font-family: var(--fonte);
+    font-weight: 700;
+    color: var(--cor-cinza-escuro);
+    font-size: 22px;
+    margin: 0.2em 0 0.4em 0;
+}
+
+.texto-cabecalho {
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-cinza-claro);
+    font-size: 14px;
+}
+
+
+.avatar-cabecalho{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 57px;
+    height: 57px;
+    margin-right: 1em;
+}

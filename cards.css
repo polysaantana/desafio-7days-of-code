@@ -1,0 +1,122 @@
+.titulo-barra {
+    font-family: var(--fonte);
+    font-weight: 700;
+    color: var(--cor-cinza-escuro);
+    font-size: 16px;
+    margin-left: 1em;
+    
+}
+
+.card {
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    width: 90%;
+    margin: 1em 0 1em 1em;
+    
+}
+
+.perfil-card {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1em 1em 0 1em;
+}
+
+.avatar-card {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 32px;
+    height: 32px;
+    margin-right: 3em;
+}
+
+.avatar-card-cliente {
+    margin-left:-9em ; 
+}
+
+.consulta-remota {
+    display: flex;
+    margin-bottom: 0.8em;
+}
+
+.titulo-card {
+    font-family: var(--fonte);
+    font-weight: 700;
+    color: var(--cor-cinza-escuro);
+    font-size: 14px;
+    margin-bottom: 0.5em;
+}
+
+.icone-camera, .icone-localizacao{
+    margin-right: 0.5em;
+}
+
+.img-chat {
+    margin-top: -1em;
+}
+
+.texto-card {
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-cinza-claro);
+    font-size: 12px;
+}
+.borda{
+    border-bottom: .05px solid var(--cor-borda-audio);
+}
+
+.horario-card {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: var(--cor-cinza-escuro);
+    font-family: var(--fonte);
+    font-size: 12px;
+}
+ 
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 1em 1em;
+}
+
+
+.botao-video {
+    width: 38%;
+    height: 25%;
+    background-color: var(--cor-fundo-video);
+    color: var(--cor-branco);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+    font-family: var(--fonte);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.botao-audio {
+    width: 38%;
+    height: 25%;
+    border-radius: 8px;
+    padding: 1em;
+    border: 1px solid var(--cor-borda-audio);
+    text-decoration: none;
+    color: var(--cor-cinza-escuro);
+    font-size: 13px;
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+.botao-endereco {
+    width: 90%;
+    height: 25%;
+    background-color: var(--cor-fundo-endereco);
+    border-radius: 8px;
+    padding: 1em;
+    border: 1px solid var(--cor-borda-audio);
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 13px;
+    font-family: var(--fonte);
+    font-weight: 500;
+}
